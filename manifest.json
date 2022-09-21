@@ -1,0 +1,19 @@
+{
+    "name": "My extension",
+    "version": "0.01",
+    "description": "try chrome.identity, chrome.management and chrome.enterprise.deviceAttributes",
+    "background": {
+        "service_worker": "popup.js"
+      },
+    "permissions":[
+        "identity", 
+        "identity.email",
+        "management",
+        "enterprise.deviceAttributes"
+    ],
+    "action":{
+        "default_title": "popup HTML",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+}
